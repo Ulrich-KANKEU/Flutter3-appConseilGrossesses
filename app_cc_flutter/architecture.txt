@@ -1,0 +1,25 @@
+Très bien, ajoutons une page "Astuces et conseils" à l'architecture de l'application "Bump Buddy". Voici la mise à jour :
+
+main.dart
+widgets/
+        home_page.dart
+        calendar_page.dart
+        profile_page.dart
+        settings_page.dart
+        notif_page.dart
+        tips_page.dart : Nouvelle page pour les astuces et conseils
+models/
+        pregnancy_model.dart
+        user_model.dart
+        tip_model.dart : Nouveau modèle de données pour stocker les astuces et conseils
+services/
+        pregnancy_service.dart
+        notification_service.dart
+        storage_service.dart
+        tips_service.dart : Nouveau service pour gérer les astuces et conseils
+utils/
+        constants.dart
+        helpers.dart
+assets/
+images/
+fonts/
